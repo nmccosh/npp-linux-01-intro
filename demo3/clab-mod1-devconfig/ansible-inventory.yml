@@ -1,0 +1,10 @@
+all:
+  children:
+    linux:
+      hosts:
+        clab-mod1-devconfig-host1:
+          ansible_host: 172.20.20.3
+        clab-mod1-devconfig-host2:
+          ansible_host: 172.20.20.4
+        clab-mod1-devconfig-switch:
+          ansible_host: 172.20.20.2
